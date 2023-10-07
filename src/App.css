@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: stretch;
+  gap: 10px;
+  border: 1px solid green;
+  background-color: antiquewhite;
+  padding: 5px;
+}
+
+.widget {
+  width: 50%;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  ;
+}
+
+.widget:nth-of-type(2n) {
+  background-color: beige;
+}
+
+.widget:nth-of-type(2n+1) {
+  background-color: bisque;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+  align-content: center;
+}
+
+.cities-widget ul {
+  list-style-type: none;
+}
+
+.progress-widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 25px;
+  border-radius: 8px;
+  background-color: aquamarine;
+}
+
+.progress-bar-indicator {
+  height: 100%;
+  transition: 2s ease 0.3s;
+  transition-property: width;
+  background-color: brown;
+  border-radius: 8px;
+}
+
+.form-widget {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+fieldset input {
+  width: 60%;
+}
+
+fieldset label {
+  width: 40%;
+}
+
+table {
+  width: 80%;
+}
+
+td {
+  min-width: 40%;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+.fill {
+  background-color: aqua;
+}
