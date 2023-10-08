@@ -18,7 +18,7 @@ const App: React.FC = () => {
             <PersistGate loading={null} persistor={persistor}>
                 <div className="App">
                     <header>
-                        <strong>Refresh the page to see widgets in action</strong>
+                        <strong>Javascript components in action below</strong>
                     </header>
                     <TimeClock />
                     <StopWatch />
